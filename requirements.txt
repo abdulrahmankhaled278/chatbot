@@ -1,0 +1,9 @@
+streamlit
+pinecone-client
+langchain-community
+langchain-openai
+speech_recognition
+whisper
+google-cloud-speech
+google-cloud-texttospeech
+python-dotenv
