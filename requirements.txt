@@ -1,6 +1,0 @@
-openai
-langchain-community
-docx2txt
-pypdf
-streamlit
-pinecone
