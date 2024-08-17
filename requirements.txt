@@ -1,0 +1,8 @@
+langchain-openai
+langchain-community
+docx2txt
+pypdf
+streamlit
+pinecone
+speech_recognition
+
