@@ -13,7 +13,7 @@ from langchain.prompts import ChatPromptTemplate, HumanMessagePromptTemplate, Me
 from langchain.chains import LLMChain
 from langchain_openai import ChatOpenAI
 import speech_recognition as sr
-import whisper
+# import whisper
 import re
 from google.cloud import texttospeech
 import time  
