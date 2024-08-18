@@ -32,7 +32,7 @@ def load_document(file):
     data = loader.load()
     return data
 
-def chunk_data(data, chunk_size, chunk_overlap=154):
+def chunk_data(data, chunk_size, chunk_overlap=80):
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap, length_function=len)
     chunks = text_splitter.split_documents(data)
     return chunks
