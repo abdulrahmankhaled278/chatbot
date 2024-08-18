@@ -564,7 +564,7 @@ if __name__ == '__main__':
             os.environ['PINECONE_API_KEY'] = pinecone_api_key
 
         uploaded_file = st.file_uploader('Upload a file: ', type=['pdf'])
-        chunk_size = st.number_input('Chunk size', min_value=100, max_value=2048, value=256)
+        chunk_size = st.number_input('Chunk size', min_value=100, max_value=2048, value=512)
         k = st.number_input('k', min_value=1, max_value=20, value=3)
         add_data = st.button('Add Data')
         
